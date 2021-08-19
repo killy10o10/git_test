@@ -1,0 +1,83 @@
+/* Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Main Styling */
+html, body{
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.7em;
+}
+
+a{
+    color: #333;
+    text-decoration: none;
+}
+
+header{
+    overflow: auto;
+}
+
+
+/* Navbar */
+#navbar-left{
+    float: left;
+    margin-left: 25px;
+}
+
+#navbar-left ul{
+    list-style: none;
+}
+
+#navbar-left ul li{
+    list-style: none;
+    float: left;
+}
+
+#navbar-left ul li a{
+    display: block;
+    padding: 15px 10px 5px;
+    
+}
+
+#navbar-right{
+    float: right;
+    margin-right: 25px;
+}
+
+
+#navbar-right ul li{
+    list-style: none;
+    float: left;
+}
+
+#navbar-right ul li a{
+    display: block;
+    padding: 15px 10px 5px;
+    
+}
+
+
+/* Logo Styling */
+
+.container{
+    max-width: 555px;
+    padding-top: 70px;
+    margin: 100px;
+
+}
+
+.logo{
+   
+    padding-bottom: 15px;
+}
+
+#searchbox{
+    padding: 12px;
+    margin-bottom: 25px;
+    border-radius: 50px;
+    width: 70%;
+    border: 1px #ddd solid;
+}
