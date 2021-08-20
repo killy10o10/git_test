@@ -47,6 +47,18 @@ header{
     margin-right: 25px;
 }
 
+#navbar-right button{
+   font-size: 16px;
+   color: white;
+   background-color: #4285F4;
+   border-style: none;
+   padding: 5px 10px;
+   text-decoration: none;
+   text-align: center;
+   border-radius: 2px;
+   
+}
+
 
 #navbar-right ul li{
     list-style: none;
@@ -62,22 +74,59 @@ header{
 
 /* Logo Styling */
 
-.container{
+#container{
     max-width: 555px;
-    padding-top: 70px;
-    margin: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
 
+    /* background: #344a72; */
+    
 }
 
-.logo{
+/* #logo {
    
-    padding-bottom: 15px;
+    padding-left: 138.5px;
+    padding-right: 138.5px;
+    
+} */
+#logo {
+   
+    text-align: center;
+    padding-bottom: 25px;
+    
 }
 
 #searchbox{
     padding: 12px;
     margin-bottom: 25px;
     border-radius: 50px;
-    width: 70%;
+    width: 100%;
     border: 1px #ddd solid;
+    
+}
+
+
+
+#search-glass{
+   position: absolute;
+   
+
+}
+
+.btn{
+    text-align: center;
+}
+
+.btn button{
+    padding: 8px;
+    border: 1px #ddd solid;
+    border-radius: 3px;
+    background-color: #f4f4f4;
+    text-align: center;
+    font-size: 13px;
+}
+
+.btn #btn-1{
+    margin-right: 5px;
 }
