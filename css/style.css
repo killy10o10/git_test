@@ -7,8 +7,8 @@
 
 /* Main Styling */
 html, body{
-    font-family: 'Roboto', sans-serif;
-    line-height: 1.7em;
+    font-family: Arial, sans-serif;
+    
 }
 
 h1{
@@ -39,18 +39,23 @@ header{
 .navbar-left ul li{
     list-style: none;
     float: left;
+    font-size: 14px;
 }
 
 .navbar-left ul li a{
     display: block;
     padding: 15px 10px 5px;
-    
-   
+  
+}
+
+.navbar-left ul li a:hover{
+    text-decoration: underline;
 }
 
 .navbar-right{
     float: right;
     margin-right: 25px;
+    
 }
 
 .navbar-right button{
@@ -69,12 +74,20 @@ header{
 .navbar-right ul li{
     list-style: none;
     float: left;
+    font-size: 14px;
+    
 }
+
+
 
 .navbar-right ul li a{
     display: block;
     padding: 15px 10px 5px;
     
+}
+
+.navbar-right ul li a:hover{
+    text-decoration: underline;
 }
 
 
@@ -104,7 +117,7 @@ header{
 }
 
 #searchbox{
-    padding: 12px 0px 12px 35px;
+    padding: 15px 0px 15px 35px;
     margin-bottom: 25px;
     border-radius: 50px;
     width: 100%;
@@ -115,11 +128,15 @@ header{
     background-image: url('/img/search_glass.png');
     background-repeat: no-repeat;
     background-position-x: 10px;
-    background-position-y: 10px;
-    background-size: 20px;
+    background-position-y: 14px;
+    background-size: 18px;
     
 }
 
+#searchbox:hover{
+    box-shadow: 0 0 4px 2px #ddd;
+    
+}
 
 
 #search-engine img{
@@ -136,23 +153,41 @@ header{
 }
 
 .btn button{
-    padding: 8px;
-    border: 1px #ddd solid;
+    padding: 10px 15px 8px;
+    border: none;
     border-radius: 3px;
     background-color: #f4f4f4;
     text-align: center;
     font-size: 13px;
+    color: #5f6368;
+    
+
+    
+}
+
+
+.btn button:hover{
+    border: 1px #ddd solid;
+    color: #202124;
+    cursor: pointer;
+
+}
+
+.btn button:active{
+    border: #4285F4 1px solid;
 }
 
 .btn #btn-1{
-    margin-right: 5px;
+    margin-right: 7px;
 }
 
 footer{
     background-color: #f4f4f4;
-    padding: 5px 5px 5px 5px;
+    padding: 0px 0px 8px 5px;
     position: fixed;
     bottom: 0;
     width: 100%;
+    font-size: 14px;
+    border: #ddd 1px solid;
     
 }
