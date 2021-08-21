@@ -115,7 +115,7 @@ header{
     padding-bottom: 25px;
     
 }
-
+/* Google Search Section */
 #searchbox{
     padding: 15px 0px 15px 35px;
     margin-bottom: 25px;
@@ -180,7 +180,7 @@ header{
 .btn #btn-1{
     margin-right: 7px;
 }
-
+/* Footer Styling */
 footer{
     background-color: #f4f4f4;
     padding: 0px 0px 8px 5px;
