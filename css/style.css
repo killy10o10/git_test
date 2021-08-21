@@ -11,6 +11,11 @@ html, body{
     line-height: 1.7em;
 }
 
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 70px;
+}
+
 a{
     color: #333;
     text-decoration: none;
@@ -22,32 +27,33 @@ header{
 
 
 /* Navbar */
-#navbar-left{
+.navbar-left{
     float: left;
     margin-left: 25px;
 }
 
-#navbar-left ul{
+.navbar-left ul{
     list-style: none;
 }
 
-#navbar-left ul li{
+.navbar-left ul li{
     list-style: none;
     float: left;
 }
 
-#navbar-left ul li a{
+.navbar-left ul li a{
     display: block;
     padding: 15px 10px 5px;
     
+   
 }
 
-#navbar-right{
+.navbar-right{
     float: right;
     margin-right: 25px;
 }
 
-#navbar-right button{
+.navbar-right button{
    font-size: 16px;
    color: white;
    background-color: #4285F4;
@@ -60,12 +66,12 @@ header{
 }
 
 
-#navbar-right ul li{
+.navbar-right ul li{
     list-style: none;
     float: left;
 }
 
-#navbar-right ul li a{
+.navbar-right ul li a{
     display: block;
     padding: 15px 10px 5px;
     
@@ -98,21 +104,32 @@ header{
 }
 
 #searchbox{
-    padding: 12px;
+    padding: 12px 0px 12px 35px;
     margin-bottom: 25px;
     border-radius: 50px;
     width: 100%;
     border: 1px #ddd solid;
+    outline: none;
+    
+
+    background-image: url('/img/search_glass.png');
+    background-repeat: no-repeat;
+    background-position-x: 10px;
+    background-position-y: 10px;
+    background-size: 20px;
     
 }
 
 
 
-#search-glass{
-   position: absolute;
-   
+#search-engine img{
+    position: absolute;
+    padding-top: 10px;
+    
+    
 
 }
+
 
 .btn{
     text-align: center;
@@ -129,4 +146,13 @@ header{
 
 .btn #btn-1{
     margin-right: 5px;
+}
+
+footer{
+    background-color: #f4f4f4;
+    padding: 5px 5px 5px 5px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    
 }
