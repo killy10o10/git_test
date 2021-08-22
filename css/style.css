@@ -11,10 +11,7 @@ html, body{
     
 }
 
-h1{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 70px;
-}
+
 
 a{
     color: #333;
@@ -98,6 +95,8 @@ header{
     margin-left: auto;
     margin-right: auto;
     margin-top: 200px;
+    position: relative;
+    
 
     /* background: #344a72; */
     
@@ -117,7 +116,10 @@ header{
 }
 /* Google Search Section */
 #searchbox{
-    padding: 15px 0px 15px 35px;
+    padding-left: 35px;
+    padding-right: 35px;
+
+    height: 48px;
     margin-bottom: 25px;
     border-radius: 50px;
     width: 100%;
@@ -141,7 +143,11 @@ header{
 
 #search-engine img{
     position: absolute;
-    padding-top: 10px;
+    padding-top: 12px;
+    padding-right: 5px;
+    right: 5px;
+    
+    
     
     
 
