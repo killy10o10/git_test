@@ -127,7 +127,7 @@ header{
     outline: none;
     
 
-    background-image: url('/img/search_glass.png');
+    background-image: url('../img/search_glass.png');
     background-repeat: no-repeat;
     background-position-x: 10px;
     background-position-y: 14px;
